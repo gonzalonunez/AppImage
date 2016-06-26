@@ -71,11 +71,7 @@ fileString.appendContentsOf("extension UIImage {\n\n")
 
 fileString.appendContentsOf(enumWithName("AppImage", fromRoot: path, indents: 0))
 
-fileString.appendContentsOf("\n\t}\n\n")
-
-fileString.appendContentsOf("\tconvenience init?(appImage: AppImage) {\n")
-fileString.appendContentsOf("\t\tself.init(named: appImage.rawValue)\n")
-fileString.appendContentsOf("\t}\n\n}")
+fileString.appendContentsOf("\n\t}")
 
 let pathToWrite = (fileManager.currentDirectoryPath as NSString).stringByAppendingPathComponent("UIImage+AppImage.swift")
 
