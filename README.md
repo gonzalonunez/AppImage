@@ -3,11 +3,11 @@ A Swift script that generates an enum based off of the contents of your Assets.x
 
 ## Usage
 
-Simply run: `./AppImage.swift [my/path/to/Assets.xcassets]`
+Simply run: `./AppImage.swift [/my/path/to/Assets.xcassets]`
 
-You'll get a new `UIImage+AppImage.swift` file in the same directory that you called it from!
+You'll get a new `UIImage+AppImage.swift` file in the same directory that you called it from.
 
-Now, you can instantiate images in a more typesafe way by using `UIImage(named: AppImage.myCase.rawValue)`.
+Now you can instantiate images in a more typesafe way by using `UIImage(named: AppImage.myCase.rawValue)`.
 
 ## Notes
 
