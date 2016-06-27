@@ -1,4 +1,4 @@
-# AppImage
+# UIImageEnums
 A Swift script that generates an enum based off of the contents of your Assets.xcassets folder.
 
 ## Usage
